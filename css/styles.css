@@ -40,6 +40,10 @@ p {
   overflow: hidden;
 }
 
+img {
+  display: block;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -153,6 +157,7 @@ p {
 .second-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .third-title {
@@ -192,8 +197,11 @@ p {
 
 .header-nav {
   display: flex;
-  gap: 76px;
   align-items: center;
+}
+
+.header-logo {
+  margin-right: 76px;
 }
 
 .nav-list {
@@ -209,8 +217,7 @@ p {
 }
 
 .nav-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .list {
@@ -225,7 +232,6 @@ p {
 .second-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .box-item {
@@ -271,4 +277,8 @@ p {
 .team-h,
 .team-p {
   text-align: center;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
