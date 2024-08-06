@@ -8,7 +8,6 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
-  padding: 0;
 }
 
 a {
@@ -127,6 +126,8 @@ img {
   margin-top: 48px;
   display: block;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .first-btn:hover,
@@ -195,6 +196,7 @@ img {
 .container-hedar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-nav {
